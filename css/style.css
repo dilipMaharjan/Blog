@@ -499,11 +499,11 @@ header h1{
 }
 #posts h1{
     font-weight: bold;
-   
+
 }
 #posts h1 a{
     text-decoration: none;
-     color: black;
+    color: black;
 }
 #posts h1 a:hover{
     color: brown;
@@ -512,10 +512,17 @@ header h1{
     padding: 45px 0;
 }
 .btn{
-   border-radius:0;
+    border-radius:0;
 }
 .btn-default:hover{
     background-color: #337AB7;
     color: white;
     border: 0;
+}
+.nav-center{
+    width: 1000px;
+    float: none;
+    display: table;
+    table-layout: fixed;
+    margin: 0 auto;
 }
