@@ -6,19 +6,54 @@
     <script type="text/javascript" src="js/jquery-3.1.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
 </head>
-<body style="background-color: silver;">
-    <nav class="navbar">
+<body>
+    <nav class="navbar navbar-custom">
         <div class="container-fluid">
             <div class="navbar-header">
                 <a href="#" class="navbar-brand">The Blog</a>
+            </div>
+            <div class="nav navbar-nav navbar-right">
+                <div class="input-group form-inline" style="padding: 10px">
+                    <input type="text" class="form-control">
+                    <div class="input-group-btn">
+                        <button class="btn btn-default"><i class="glyphicon glyphicon-search"></i></button>
+                    </div>
+                </div>
             </div>
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About Us</a></li>
                 <li><a href="#">Contact Us</a></li>
             </ul>
+
         </div>
     </nav>
+    <header>
+        <div class="text-center">
+            <h1>My Blog</h1>
+            <p class="lead">Welcome to my Blog and Enjoy the ride.</p>
+        </div>
+    </header>
+    <div class="col-md-8 col-md-offset-2">
+        <div id="posts">
+            <h1><a href="#">The sky looks blue but what we see can be an illusion.</a></h1>
+            <p class="lead">The depth of the statement is very simple. What we see might not be always what it is.</p>
+            <p>5-July-2016 | Dilip Maharjan</p>
+        </div>
+        <div id="posts">
+            <h1><a href="#">The sky looks blue but what we see can be an illusion.</a></h1>
+            <p class="lead">The depth of the statement is very simple. What we see might not be always what it is.</p>
+            <p>5-July-2016 | Dilip Maharjan</p>
+        </div>
+        <div id="posts">
+            <h1><a href="#">The sky looks blue but what we see can be an illusion.</a></h1>
+            <p class="lead">The depth of the statement is very simple. What we see might not be always what it is.</p>
+            <p>5-July-2016 | Dilip Maharjan</p>
+        </div>
+        <div class="btn-older-posts text-right">
+            <button class="btn btn-default btn-lg">Older posts<span class="glyphicon glyphicon-menu-right"></span></button>
+        </div>
+    </div>
 </div>
 </body>
 </html>

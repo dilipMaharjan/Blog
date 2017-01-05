@@ -476,3 +476,46 @@ Override bootstrap
 .navbar li a:hover{
     color: orange;
 }
+.navbar-header a{
+    font-size:50px;
+}
+.navbar-custom{
+    top: 0;
+    width: 100%;
+    font-family: serif;
+    position: absolute;
+}
+header{
+    height: 450px;
+    padding: 100px 50px;
+    color: white;
+    background-image: url('../images/banner.jpg')
+}
+header h1{
+    font-size: 50px;
+}
+#posts{
+    border-bottom: 1px solid gray ;
+}
+#posts h1{
+    font-weight: bold;
+   
+}
+#posts h1 a{
+    text-decoration: none;
+     color: black;
+}
+#posts h1 a:hover{
+    color: brown;
+}
+.btn-older-posts{
+    padding: 45px 0;
+}
+.btn{
+   border-radius:0;
+}
+.btn-default:hover{
+    background-color: #337AB7;
+    color: white;
+    border: 0;
+}
